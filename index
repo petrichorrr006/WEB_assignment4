@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Task 0 - Main</title>
+    <link rel="stylesheet" href="css/task0.css">
+</head>
+<body>
+    <div class="header">
+        <a href="task1.html">Task 1 – Responsive Layout</a>
+        <a href="task2.html">Task 2 – Bootstrap Grid</a>
+        <a href="task3.html">Task 3 – Bootstrap Navbar</a>
+        <a href="task4.html">Task 4 – Portfolio Page</a>
+    </div>
+    <h1>Responsive Typography</h1>
+    <p>A media query is a CSS technique that allows web 
+        developers to apply specific styles to a webpage 
+        based on the characteristics of the device or "media" 
+        displaying the content. It is a fundamental component 
+        of responsive web design (RWD), enabling websites to 
+        adapt their layout and appearance to various screen sizes, 
+        resolutions, and other user preferences.
+        <br>
+        <br>
+        Here's a breakdown of what a media query entails: 
+        Conditional Styling: Media queries use the @media at-rule in CSS to include a block of CSS properties only if a specified condition is true.
+        Media Types: They can target different media types, such as screen (for computer screens, tablets, and smartphones), print (for printed pages), or speech (for speech synthesizers).
+        Media Features: Beyond media types, media queries can check for various media features, including:
+        Viewport dimensions: width, height, min-width, max-width, min-height, max-height.
+        Device dimensions: device-width, device-height.
+        Orientation: orientation (portrait or landscape).
+        Resolution: resolution (for pixel density).
+        User preferences: prefers-color-scheme (light/dark mode), prefers-reduced-motion
+    </p>
+</body>
+</html>
