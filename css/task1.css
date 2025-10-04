@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: navy;
+}
+
+.three-boxes {
+  display: flex;
+  gap: 10px;
+}
+
+.box {
+  flex: 1;
+  background: #f8f9fa;
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+@media (max-width: 991px) {
+  .three-boxes {
+    flex-wrap: wrap;
+  }
+  .box {
+    flex-basis: calc(50% - 10px);
+  }
+}
+
+@media (max-width: 600px) {
+  .box {
+    flex-basis: 100%;
+  }
+}
